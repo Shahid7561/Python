@@ -1,0 +1,80 @@
+Machine Learning:
+Machine Learning (ML) is a way computers learn from data to improve their performance on a specific task without being explicitly programmed.
+
+Types of ML:
+1.Supervised Learning:
+    Teaching the computer with labeled examples,In simple terms machine knows the data and output regarding that data.
+
+    Types of SL:
+    1.Classification: The computer learns to guess the correct label,In simple terms Classification used to predict the label in of the given labels. example - spam/notspam, name of fruit,etc...
+
+        Types of classification:
+        1.Logistic Regression:
+
+        2.Decision Trees: Decision trees ask a series of questions to classify data. Each question narrows down the possibilities until the algorithm decides on a category.
+
+        3.Random Forest: A random forest combines the decisions of multiple decision trees to improve accuracy and make more reliable classifications.
+
+        4.Naive Bayes: Naive Bayes uses probability and statistics to predict the probability of an input belonging to a certain class based on the presence of specific features.
+        - "naive" means simple or basic.
+        - "Bayes" Named after the mathematician Thomas Bayes, this algorithm uses Bayes' theorem.
+        - Naive Bayes calculates the probability of a data point belonging to a certain class given its features.
+
+        5.K-Nearest Neighbors (KNN): KNN classifies data points based on the majority class of their nearby neighbors. The "k" refers to the number of neighbors considered.
+
+        6.Support Vector Machines (SVM): SVM finds the best line (or surface in higher dimensions) to separate data into classes with the maximum distance between them.
+
+    2.Regression: The computer tries to figure out patterns,In simple terms Regression used to predict the continues values or patterns. example - stock price,house price,etc...
+
+        Types of Regression: 
+        1.Linear Regression: Linear regression finds the best-fitting linear equation to predict a numeric outcome. It's like drawing a line that minimizes the distance between the points and the line itself.
+
+        2.Decision Tree Regression: Decision tree regression uses a tree structure to predict numeric outcomes. It breaks down the data into smaller subsets by asking questions about different features.
+
+        3.Random Forest Regression: Random forest regression combines the predictions of many decision trees to improve accuracy and account for different possibilities in the data.
+
+        4.Support Vector Regression (SVR): SVR extends the idea of support vector machines to regression. It finds a line (or surface in higher dimensions) that best fits the data points while allowing a certain margin of error.
+
+2.Unsupervised Learning:
+    Finding patterns in unlabeled data, like clustering similar data points,In simple terms machine don't know the output of data.
+
+    Types of UL:
+    1.Clustering: find groups of similar things together without knowing what the final picture is,In simple terms clustering is used to group the similar types of entities. example - dog,cat,fruits
+    2.Association: it helps in finding the connection between two entities,In simple terms if person buy the X items than he also buy the Y item. example - if a person buys phone than he also buys the phone cover or earphones.
+
+3.Reinforcement Learning:
+    Training a model to make sequences of decisions by rewarding good choices,In simple terms machine learns itself according to given feedback to it.
+
+
+ML Pipeline:
+
+1.Understand the problem: First we need to understand the problem. 
+2.Data Collection: Gathering relevant data for the problem.
+3.Data Preprocessing: Cleaning, formatting, and transforming data for use.
+4.Model Selection: Choosing the appropriate algorithm or approach.
+5.Training: Feeding data to the model to adjust its parameters.
+6.Evaluation: Testing the trained model's performance on new data.
+7.Deployment: Implementing the model for real-world use.
+
+
+Deep Learning: Deep Learning is a subset of Machine Learning that involves neural networks with many interconnected layers (deep neural networks).
+
+Neurons: Basic processing units that mimic brain cells.
+Layers: Neurons are organized into input, hidden, and output layers.
+Activation: Neurons apply activation functions to inputs, determining their output.
+Deep Structure: Multiple hidden layers for complex pattern recognition.
+Feature Learning: Automatically learning useful features from raw data.
+
+Types of Neural Networks:
+1.Convolutional Neural Networks (CNNs): Excellent for image recognition due to their ability to capture spatial hierarchies.
+
+2.Recurrent Neural Networks (RNNs): Suited for sequences, like time series or language, due to their memory of previous inputs.
+
+3.Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRUs): RNN variants for better handling long-range 
+dependencies.
+
+Training Deep Networks:
+
+Backpropagation: Adjusting network parameters based on prediction errors.
+Gradient Descent: Optimizing parameter adjustments to minimize errors.
+Overfitting: When a network learns noise in data instead of true patterns. Regularization techniques help prevent this.
